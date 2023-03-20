@@ -1,0 +1,30 @@
+.letter-tile {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bolder;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #888;
+    background-color: gray;
+    color: white;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.letter-tile-matched {
+    background-color: green;
+    color: white;
+}
+
+.letter-tile-valid {
+    background-color: goldenrod;
+    color: white;
+}
+
+.letter-tile-blank {
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 10%;
+}
